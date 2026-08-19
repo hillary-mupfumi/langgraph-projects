@@ -2,6 +2,7 @@ import asyncio
 import os
 
 from dotenv import load_dotenv
+from pathlib import Path
 from langchain_core.messages import HumanMessage
 from langchain_mcp_adapters.tools import load_mcp_tools
 from langchain_openai import ChatOpenAI
@@ -15,7 +16,7 @@ llm = ChatOpenAI()
 
 stdio_server_params = StdioServerParameters(
     command="python",
-    args=["/Users/edenmarco/GithubProjects/mcp-crash-course/servers/math_server.py"],
+    args=[str(Path(__file__).parent / "servers" / "math_server.py")],
 )
 
 async def main():
