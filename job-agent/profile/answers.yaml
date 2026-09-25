@@ -1,0 +1,20 @@
+# Standard answers for common application questions. apply.py fills these in
+# automatically; anything not listed here gets flagged for manual review
+# rather than guessed at.
+
+first_name: "Hillary"
+last_name: "Mupfumi"
+email: ""
+phone: ""
+location: "" # city, state/country
+linkedin_url: ""
+portfolio_url: ""
+github_url: ""
+
+work_authorization:
+  authorized_to_work: true # legally authorized to work in the country you're applying from
+  requires_sponsorship: false
+
+how_did_you_hear: "Company careers page"
+notice_period: "" # e.g. "2 weeks", "immediately available"
+desired_salary: "" # leave blank to skip fields that require it (they'll be flagged)

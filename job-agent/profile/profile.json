@@ -1,0 +1,169 @@
+{
+  "name": "Hillary Mupfumi",
+  "contact": {
+    "email": "hmupfumi@gmail.com",
+    "phone": "(339) 746-0725",
+    "location": "Boston, MA",
+    "links": ["linkedin.com/in/hillary-mupfumi", "github.com/hillary-mupfumi"]
+  },
+  "roles": [
+    {
+      "id": "role-1",
+      "title": "Systems Development & Integration Manager",
+      "company": "Delta Beverages Pvt Ltd",
+      "location": "Harare, Zimbabwe",
+      "start": "2022-06",
+      "end": "2025-08",
+      "bullets": [
+        {
+          "id": "role-1-b1",
+          "text": "Led a SAP S/4HANA data integration project connecting enterprise transactional data to tax authority reporting, achieving full regulatory compliance and $30K in annual cost savings",
+          "tags": ["sap", "s4hana", "data-integration", "compliance"]
+        },
+        {
+          "id": "role-1-b2",
+          "text": "Built and automated executive dashboards and KPI reports in Power BI and Tableau, reducing reporting turnaround time by 45% through automated data pipelines",
+          "tags": ["power-bi", "tableau", "dashboards", "automation", "etl"]
+        },
+        {
+          "id": "role-1-b3",
+          "text": "Improved data quality and KPI accuracy by 25% by implementing data governance frameworks and validation rules across enterprise reporting systems",
+          "tags": ["data-governance", "data-quality", "kpi"]
+        }
+      ],
+      "tags": ["management", "sap", "data-integration"]
+    },
+    {
+      "id": "role-2",
+      "title": "Software Developer / Business Analyst",
+      "company": "Delta Beverages Pvt Ltd",
+      "location": "Harare, Zimbabwe",
+      "start": "2018-11",
+      "end": "2022-03",
+      "bullets": [
+        {
+          "id": "role-2-b1",
+          "text": "Built ABAP data extraction programs feeding interactive Power BI and Tableau dashboards, improving KPI tracking and self-service reporting across departments",
+          "tags": ["abap", "sap", "power-bi", "tableau", "reporting"]
+        }
+      ],
+      "tags": ["software-development", "business-analysis", "abap"]
+    },
+    {
+      "id": "role-3",
+      "title": "Senior Systems Analyst / Data Analyst",
+      "company": "Tobacco Industry and Marketing Board",
+      "location": "Harare, Zimbabwe",
+      "start": "2022-01",
+      "end": "2022-06",
+      "bullets": [
+        {
+          "id": "role-3-b1",
+          "text": "Designed and deployed data analytics solutions to support regulatory reporting and operational decision making",
+          "tags": ["data-analytics", "regulatory-reporting"]
+        },
+        {
+          "id": "role-3-b2",
+          "text": "Delivered actionable insights through statistical analysis and data visualization for senior management",
+          "tags": ["statistical-analysis", "data-visualization"]
+        }
+      ],
+      "tags": ["data-analysis", "systems-analysis"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "EY Urban Heat Island Data Challenge (Team Lead)",
+      "description": "Led a team that classified Urban Heat Island intensity using Sentinel 2 spectral indices and building footprint features, training on Santiago and Rio de Janeiro data and generalizing to Freetown, Sierra Leone. Built a Random Forest, XGBoost, KNN, and custom Residual MLP ensemble; the Residual MLP reached a macro F1 score of 0.90 on Rio de Janeiro, and a pseudo-labeled ensemble reached a cross-validated F1 of 0.86 on the unlabeled target city.",
+      "url": "",
+      "tags": ["machine-learning", "remote-sensing", "ensemble-models", "team-lead"]
+    },
+    {
+      "id": "proj-2",
+      "name": "New England Revolution (MLS) AI Strategy Challenge (Team Lead)",
+      "description": "Led a team that analyzed the club's fan and CRM data to develop a boardroom-ready AI adoption strategy for personalization and predictive fan engagement, presented to club leadership.",
+      "url": "",
+      "tags": ["ai-strategy", "crm", "team-lead", "presentation"]
+    },
+    {
+      "id": "proj-3",
+      "name": "Inventory Demand Forecasting",
+      "description": "Built an XGBoost regression model with calendar and lag features to forecast daily SKU demand, reducing mean absolute error by 20.15% versus a seasonal naive baseline.",
+      "url": "github.com/hillary-mupfumi",
+      "tags": ["xgboost", "forecasting", "regression"]
+    },
+    {
+      "id": "proj-4",
+      "name": "RFM Customer Segmentation",
+      "description": "Segmented customers on two years of transaction history using RFM scoring validated against k-means clustering, identifying two segments (48.08% of customers) that drive 86.18% of total revenue.",
+      "url": "github.com/hillary-mupfumi",
+      "tags": ["rfm", "clustering", "customer-segmentation"]
+    },
+    {
+      "id": "proj-5",
+      "name": "A/B Testing and Experimentation",
+      "description": "Evaluated a checkout redesign using two-proportion z-tests and power analysis, finding a statistically significant 10.37% lift in conversion rate (p = 0.0016).",
+      "url": "github.com/hillary-mupfumi",
+      "tags": ["ab-testing", "statistics", "experimentation"]
+    }
+  ],
+  "skills": [
+    { "id": "skill-1", "name": "Python", "category": "programming language" },
+    { "id": "skill-2", "name": "R", "category": "programming language" },
+    { "id": "skill-3", "name": "SQL", "category": "programming language" },
+    { "id": "skill-4", "name": "C#", "category": "programming language" },
+    { "id": "skill-5", "name": "DAX", "category": "programming language" },
+    { "id": "skill-6", "name": "JavaScript", "category": "programming language" },
+    { "id": "skill-7", "name": "Scikit-learn", "category": "data science & ml" },
+    { "id": "skill-8", "name": "XGBoost", "category": "data science & ml" },
+    { "id": "skill-9", "name": "TensorFlow", "category": "data science & ml" },
+    { "id": "skill-10", "name": "NumPy", "category": "data science & ml" },
+    { "id": "skill-11", "name": "Pandas", "category": "data science & ml" },
+    { "id": "skill-12", "name": "Regression", "category": "data science & ml" },
+    { "id": "skill-13", "name": "Random Forest", "category": "data science & ml" },
+    { "id": "skill-14", "name": "Gradient Boosting", "category": "data science & ml" },
+    { "id": "skill-15", "name": "Neural Networks", "category": "data science & ml" },
+    { "id": "skill-16", "name": "NLP", "category": "data science & ml" },
+    { "id": "skill-17", "name": "A/B Testing", "category": "data science & ml" },
+    { "id": "skill-18", "name": "Statistical Modeling", "category": "data science & ml" },
+    { "id": "skill-19", "name": "SAP S/4HANA", "category": "data & analytics platform" },
+    { "id": "skill-20", "name": "SAP BW/4HANA", "category": "data & analytics platform" },
+    { "id": "skill-21", "name": "Snowflake", "category": "data & analytics platform" },
+    { "id": "skill-22", "name": "Power BI", "category": "data & analytics platform" },
+    { "id": "skill-23", "name": "Tableau", "category": "data & analytics platform" },
+    { "id": "skill-24", "name": "Excel (Power Query)", "category": "data & analytics platform" },
+    { "id": "skill-25", "name": "Azure", "category": "data & analytics platform" },
+    { "id": "skill-26", "name": "AWS (S3, EC2, Athena)", "category": "data & analytics platform" },
+    { "id": "skill-27", "name": "ETL", "category": "miscellaneous" },
+    { "id": "skill-28", "name": "Data Pipelines", "category": "miscellaneous" },
+    { "id": "skill-29", "name": "Data Governance", "category": "miscellaneous" },
+    { "id": "skill-30", "name": "KPI Reporting", "category": "miscellaneous" },
+    { "id": "skill-31", "name": "Power Automate", "category": "miscellaneous" },
+    { "id": "skill-32", "name": "Git", "category": "miscellaneous" },
+    { "id": "skill-33", "name": "Agile", "category": "miscellaneous" }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Hult International Business School",
+      "credential": "Master of Science, Business Analytics and AI",
+      "graduation_date": "2026-08",
+      "notes": "Boston, MA. GPA 3.47/4.0. Coursework: Statistical Analysis, Data Extraction & Visualization, Data Management & SQL, Python, Machine Learning, AI Driven Decision Support."
+    },
+    {
+      "id": "edu-2",
+      "institution": "University of the People",
+      "credential": "Master of Business Administration (MBA)",
+      "graduation_date": "2024-08",
+      "notes": "Pasadena, CA. GPA 3.72/4.0, Dean's List. Concentration: Managing Information Systems, Strategic Leadership, Operations Management."
+    },
+    {
+      "id": "edu-3",
+      "institution": "University of Zimbabwe",
+      "credential": "Bachelor of Business Studies & Computing Science",
+      "graduation_date": "2017-09",
+      "notes": "Harare, Zimbabwe. Upper Second Class Honours (2:1), GPA equivalent 3.6/4.0. Concentration: Data Management, Programming, Data Structures & Algorithms."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# Eligibility filters. Jobs failing a hard filter are marked "filtered, reason X",
+# never silently dropped, so the shortlist stays auditable.
+
+target_titles:
+  - "Data Analyst"
+  - "Business Analyst"
+  - "SAP ABAP Developer"
+  - "SAP Consultant"
+  - "Data Scientist"
+  - "Data Engineer"
+  - "Business Intelligence Developer"
+  - "BI Developer"
+  - "Analytics Manager"
+
+locations:
+  # Empty list = no location filter. Add city/country strings or "remote".
+  allow: []
+  deny: []
+
+salary_floor_usd: null # e.g. 70000
+
+graduation_date_requirement: null # e.g. "2026-05", for roles that require a degree by a certain date
+
+sponsorship_required: false # true if you need visa sponsorship and want to filter postings that say they don't offer it
+
+resume_variants:
+  - id: "data-analytics"
+    label: "Data Analytics"
+  - id: "sap-abap"
+    label: "SAP ABAP"
+
+style:
+  no_em_dash: true
+  no_en_dash: true
+  max_pages: 1
+  filename_pattern: "Hillary_Mupfumi_{doc_type}_{company}_{tag}"

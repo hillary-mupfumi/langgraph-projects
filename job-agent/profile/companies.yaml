@@ -1,0 +1,53 @@
+# Randomly chosen (at the user's request) rather than an actual target list --
+# replace with real target companies before this is used for a real job search
+# (see PLAN.md section 9). Every entry below was live-verified against the
+# real Greenhouse/Ashby APIs on 2026-09-25 (see the probe in this session) --
+# not guessed. No Lever hit was found in a couple of rounds of guessing common
+# names; add a real one if you know a company on Lever.
+
+companies:
+  - name: "Airbnb"
+    ats_type: greenhouse
+    ats_slug: "airbnb"
+  - name: "Stripe"
+    ats_type: greenhouse
+    ats_slug: "stripe"
+  - name: "Discord"
+    ats_type: greenhouse
+    ats_slug: "discord"
+  - name: "Reddit"
+    ats_type: greenhouse
+    ats_slug: "reddit"
+  - name: "Robinhood"
+    ats_type: greenhouse
+    ats_slug: "robinhood"
+  - name: "Coinbase"
+    ats_type: greenhouse
+    ats_slug: "coinbase"
+  - name: "GitLab"
+    ats_type: greenhouse
+    ats_slug: "gitlab"
+  - name: "Figma"
+    ats_type: greenhouse
+    ats_slug: "figma"
+  - name: "Instacart"
+    ats_type: greenhouse
+    ats_slug: "instacart"
+  - name: "Asana"
+    ats_type: greenhouse
+    ats_slug: "asana"
+  - name: "Linear"
+    ats_type: ashby
+    ats_slug: "linear"
+  - name: "Ramp"
+    ats_type: ashby
+    ats_slug: "ramp"
+  - name: "Notion"
+    ats_type: ashby
+    ats_slug: "notion"
+  - name: "OpenAI"
+    ats_type: ashby
+    ats_slug: "openai"
+  - name: "Substack"
+    ats_type: ashby
+    ats_slug: "substack"
